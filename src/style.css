@@ -1,0 +1,77 @@
+body,
+html,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.janela {
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    overflow-y: scroll;
+    background-image: url("../img/background.png");
+}
+
+.input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+.textos img {
+    width: 50px;
+}
+
+.bot {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    background-color: aqua;
+    border-radius: 6px;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.bot button {
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.usuario {
+    display: flex;
+    justify-content: end;
+
+}
+
+.usuario div {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(64, 192, 192, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+}
